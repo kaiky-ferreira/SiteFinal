@@ -1,0 +1,181 @@
+head, body{
+    background-color:#4A4233;
+    color: black;
+    font-family: Verdana;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header{
+    background-color: #645945;
+    height: 200px;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    flex-direction:unset;
+    list-style-type: none;
+}
+
+nav ul a{
+    
+    text-decoration: none;
+    color: black;
+    transition: all ease 1.2s 0.01s;
+}
+
+nav ul li a:hover{
+    cursor: pointer;
+    border-bottom: 10px;
+    font-size: 30px;
+}
+
+#item {
+    text-decoration: none;
+    list-style-type: none;
+    background-color: #4A4233;
+    font-size: 18px;
+    font-family: Verdana;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-right: 60px;
+    padding-left: 60px;
+    float: none;
+    font-family: Viaoda Libre;
+}
+
+#item:hover{
+    background-color: #F0D6A5;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    animation-name: aumentar;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+}
+
+
+img.D20g{
+    float: left;
+    width: 90px;
+    height: 90px;
+    padding-top: 20px;
+    padding-right: 0px;
+    margin-left: 35%;
+    justify-content: center ;
+  }
+
+  #titulo{
+    font-family: Viaoda Libre;
+    font-size: 50px;
+    padding-top: 15px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 5%;
+    color: white;
+
+  }
+
+  
+
+  .adi {
+    float: right;
+
+  }
+
+  #menu{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  article{
+    display: block;
+    background-color: #B09D79;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;
+  }
+
+  section{
+    display: block;
+    background-color: #B09D79;
+    opacity: 0.8;
+    padding: 15px;
+    margin-right: 30%;
+    margin-bottom: 20px;
+    margin-left: 2cm;
+    margin-right: 2cm;  
+  }
+
+  h2{
+    font-family: Viaoda Libre;
+    margin-left: 20%;
+
+  }
+
+  .cp{
+    font-family: Viaoda Libre;
+    font-size: 20px;
+
+  }
+
+  #sis{
+      text-align: center;
+      margin-right: 20%;
+  }
+  
+  #sus {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  }
+
+  #link:link{
+    color: #F0D6A5;
+  }
+
+  #link:visited{
+    color: #645945;
+  }
+
+  footer{
+    font-family: Viaoda Libre;
+    background-color: #70644D;
+    text-align: center;
+    color: #F0D6A5;
+    font-size: 20px;
+  }
+
+  #direita{
+   float: right;
+   justify-content: flex-end;
+ }
+
+ #pronto{
+   margin-left: 45%;
+   font-size: 20px;
+
+ }
+
+ #pronto:hover {    
+  background-color: dimgrey;
+
+ }
+
+ #agradecimentos{
+   text-align: center;
+   margin-right: 20%;
+ }
+
+ #agradecimentos2{
+  text-align: center;
+}

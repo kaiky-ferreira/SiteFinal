@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>RPG de mesa</title>
+        <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../../styles.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="../imagens/D20.gif" class="D20g">
+            <h1 id="titulo">RPGs de mesa</h1>
+            <br><br><br>
+            <nav>
+                <ul class="navegacao">
+                    <li><a href="../../index.html" id="item">Menu</a></li>
+                    <li><a href="../paginas/sistemas.html" id="item">Sistemas</a></li>
+                    <li><a href="../paginas/personagem.html" id="item">Crie seu personagem</a></li>
+                    <li><a href="src/paginas/agradecimentos.html" id="item">Agradecimentos</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br><br><br><br><br><br>
+
+        <main>
+            <article>
+           <h2 id="sis">Crie seu personagem</h2>
+           <p>Aqui você poderá criar um personagem do sistema Order & Chaos, que é um sistema brasileiro básico
+               para iniciantes!
+           </p>
+        </article>
+        <section>
+            <label for="nome">Nome de seu personagem</label> <br>
+            <input type="text" id="nomep" placeholder="Digite o nome">
+            <br><br>
+        <div id=direita>
+            <label for="nomej">Nome do jogador</label> <br>
+            <input type="text" id="nomej" placeholder="Digite seu nome">
+            <br><br>
+        </div>
+
+            <label for="raça">Raça do seu personagem</label> <br>
+            <input type="text" id="raça" placeholder="Digite a raça">
+            <br><br>
+
+        <div id="direita">
+            <label for="profissão">Profissão do seu personagem</label> <br>
+            <input type="text" id="profissão" placeholder="Digite a profissão">
+            <br><br>
+        </div>
+
+            <label for="idade">Idade do seu personagem</label> <br>
+            <input type="number" id="idade" placeholder="Digite a idade">
+            <br><br>
+
+        <div id="direita">
+            <label for="aparência">Aparência breve de seu personagem</label> <br>
+            <input type="text" id="aparência" placeholder="Digite a aparência">
+            <br><br>
+        </div>
+            <label for="história">História resumida de seu personagem</label> <br>
+            <input type="text" id="história" placeholder="Digite a história">
+            <br><br>  
+            <p id="personagem"> </p>
+            <button onclick="pronto()" id="pronto"  >Pronto</button>
+        </section>
+
+        </main>
+    </body>
+    <script src="../../script.js"></script>
+</html>
